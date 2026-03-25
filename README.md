@@ -1,25 +1,25 @@
 # panelist-helper
-日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-A tool to assist panelists during panel discussions by providing helpful comments based on the discussion.
+panelist helper
 
-## Demo
-[Live demo](https://js.sabae.cc/panelist-helper.html)
+**Live demo**: https://code4fukui.github.io/panelist-helper/
 
-## Features
-- Speech recognition to capture panelist comments
-- Automatic generation of helpful comments based on the discussion
-- Ability to select between Japanese and English languages
+## Technology Stack
 
-## Requirements
-The tool requires a modern web browser with support for the Web Speech API.
+**Browser modules (ES imports):**
 
-## Usage
-1. Open the [demo page](https://js.sabae.cc/panelist-helper.html) in a compatible browser.
-2. Select the desired language (Japanese or English) from the dropdown.
-3. Click the "Start speech recognition" button to begin.
-4. The tool will transcribe your speech in the "Recognition result" textarea.
-5. The "Helpful comment" textarea will automatically suggest a relevant comment based on your transcribed speech.
+- [`fetchJSON.js`](https://js.sabae.cc/fetchJSON.js)
+
+
+## Installation & Setup
+
+No build step required. Clone the repository and open `index.html` in a browser,
+or visit the live demo at https://code4fukui.github.io/panelist-helper/
+
+## Contributing
+
+Contributions are welcome. Please open an issue or pull request on GitHub.
 
 ## License
-This project is licensed under the [MIT License](LICENSE).
+
+MIT License. See [LICENSE](./LICENSE) for details.
